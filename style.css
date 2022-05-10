@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #f1f1f1;
+    color:#0f141e;
+     /* это цвет шрифта для всего сайта. Чтобы изменить
+    цвет в других тегах нужно его переопределить */
+    font-size: 16px;
+    font-weight: normal; /*жирность шрифта как правило ставится normal или bold
+    если выбирать цифрами, то до 600 обычный шрифт. Имеет значение при всяких экзотических
+    шрифтах*/
+    font-family: 'Roboto', sans-serif;
+    /* можно и так font: normal 16px 'Roboto', sans-serif; */
+}
+
+        /* если работать не с классом, а с id, то необходимо указывать
+        #avatar, если бы avatar был не class, а id. Разница в том, что id в html файле 
+        должен быть только один, а классов может быть несколько */
+
+    .avatar {
+        width: 200px;
+        border-radius: 28px ;
+        box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+
+    }
+
+.info p {
+/*здесь через пробел после названия класса уточняется к каким типам тегов относится стиль
+в данном случае к параграфам */
+    color:#86898f;
+    margin: 0;
+    font-style: italic; /*наклон*/
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform:uppercase; */
+    /* letter-spacing: 5px; */
+}
